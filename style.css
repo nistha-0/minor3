@@ -1,0 +1,149 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+   
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+}
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #search input {
+        width: 100%;
+        max-width: none;
+    }
+
+    section {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    header img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 1.2em;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 5px;
+        font-size: 0.9em;
+    }
+    #search input {
+        width: 100%;
+        padding: 8px;
+    }
+    section {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+#search input {
+      padding: 10px 15px;
+      width: 80%;
+      max-width: 600px;
+      border: 2px solid #000;
+      border-radius: 25px;
+    }
+section ul{
+    text-align: left;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    max-width: 1000px;
+    margin: auto;
+}
+main {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+      
+    }
+
+section {
+        padding: 0px 0px 10px 0px;
+        min-height: auto;
+        color: #333;
+        margin-top: 10px;
+        border: 2px solid #a70000;
+        margin: 20px auto;
+        max-width: 30%;
+        text-align: center;
+        display:inline-block;
+        background-color: husky;
+       
+    }
+h2{
+    background-color: #a70000;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: top;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+#index {
+    text-align: center;
+    margin-top: 20px;
+    color: #a70000;
+    background-color: #f8f9fa;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
