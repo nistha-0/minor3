@@ -55,7 +55,7 @@ nav ul li a:hover {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: auto) {
     h2 {
         font-size: 1.2em;
     }
